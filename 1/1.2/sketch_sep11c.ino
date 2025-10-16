@@ -6,10 +6,10 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
  PORTB |= (1 << PORTB5);
- delay(25);
+ delay(500);
 
  PORTB &= ~(1<<PORTB5);
- delay(25);
+ delay(500);
 }
 //maximum bytes =2048   storgae space =640 byte,Maximum is 32256 bytes.
 
