@@ -5,7 +5,5 @@ void setup() {
 }
 void loop() {
   PORTB ^= (1 << LED);  
-  delay(50);
-  PORTB ^= (1 << LED);
-  delay(50);
+  delay(500);
 }
